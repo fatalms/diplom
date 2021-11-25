@@ -3,7 +3,11 @@
     "baseUrl": ".",
     "outDir": "./dist/",
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -18,14 +22,12 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "noImplicitAny": true,
-    "sourceMap": true,
-    "paths": {
-      "components/*": ["./src/components/*"],
-      "features/*": ["./src/features/*"],
-      "utils/*": ["./src/utils/*"],
-      "src/*": ["./src/*"]
-    }
+    "sourceMap": true
   },
-  "include": ["src"],
-  "exclude": ["node_modules"]
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
